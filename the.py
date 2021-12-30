@@ -171,7 +171,7 @@ loop = "true"
 while loop == "true":
 	username = unik = input("+balmond+l+"("Toolls Username : ")
 	if username == CorrectUsername:
-		password = unik = input("\n"+balmond+l+"("Toolls Password : ")
+		password = unik = input("+balmond+l+"("Toolls Password : ")
 		if password == CorrectPassword:
 			print("Login Berhasil as Dattebayo")
 			time.sleep(0.03)
