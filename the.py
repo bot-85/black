@@ -142,10 +142,7 @@ def jalan(ms):
 		sys.stdout.flush()
 		time.sleep(0.05)
 
-def clear():
-	os.system("clear")
-
-# Ubah Satu Kata Data Hp Ilang!!!!, Usahakan Jangan Asal Hapus
+ # Ubah Satu Kata Data Hp Ilang!!!!, Usahakan Jangan Asal Hapus
 CorrectUsername = "BintangTzy"
 CorrectPassword = "SanzTzy"
 loop = "true"
@@ -163,6 +160,9 @@ while loop == "true":
 	else:
 		print("Wrong Username")
 		os.system("xdg-open https://www.facebook.com/rendi.gerot.1")		
+
+def clear():
+	os.system("clear")
 
 # LOGO
 
