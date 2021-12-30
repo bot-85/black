@@ -142,25 +142,6 @@ def jalan(ms):
 		sys.stdout.flush()
 		time.sleep(0.05)
 
- # Ubah Satu Kata Data Hp Ilang!!!!, Usahakan Jangan Asal Hapus
-CorrectUsername = "BintangTzy"
-CorrectPassword = "SanzTzy"
-loop = "true"
-while loop == "true":
-	username = unik = raw_input("Toolls Username : ")
-	if username == CorrectUsername:
-		password = unik = raw_input("Toolls Password : ")
-		if password == CorrectPassword:
-			print("Login Berhasil as Dattebayo")
-			time.sleep(0.03)
-			loop = "false"
-		else:
-			print("Wrong Password")
-			os.system("xdg-open https://www.facebook.com/rendi.gerot.1")
-	else:
-		print("Wrong Username")
-		os.system("xdg-open https://www.facebook.com/rendi.gerot.1")		
-
 def clear():
 	os.system("clear")
 
