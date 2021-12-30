@@ -145,6 +145,25 @@ def jalan(ms):
 def clear():
 	os.system("clear")
 
+# Ubah Satu Kata Data Hp Ilang!!!!, Usahakan Jangan Asal Hapus
+CorrectUsername = "BintangTzy"
+CorrectPassword = "SanzTzy"
+loop = "true"
+while loop == "true":
+	username = unik = raw_input("Toolls Username : ")
+	if username == CorrectUsername:
+		password = unik = raw_input("Toolls Password : ")
+		if password == CorrectPassword:
+			print("Login Berhasil as Dattebayo")
+			time.sleep(0.03)
+			loop = "false"
+		else:
+			print("Wrong Password")
+			os.system("xdg-open https://www.facebook.com/rendi.gerot.1")
+	else:
+		print("Wrong Username")
+		os.system("xdg-open https://www.facebook.com/rendi.gerot.1")		
+
 # LOGO
 
 def banner():
@@ -163,29 +182,6 @@ def banner():
 \033[97;1m\033[92;1m Crack Facebook random akan kaya teh hijau
 \033[97;1m\033[93;1m---------------------------------------------------------
 """)
-
- # Ubah Satu Kata Data Hp Ilang!!!!, Usahakan Jangan Asal Hapus
-CorrectUsername = "BintangTzy"
-CorrectPassword = "SanzTzy"
-loop = "true"
-while loop == "true":
-	username = unik = input("+balmond+l+"("Toolls Username : ")
-	if username == CorrectUsername:
-		password = unik = input("+balmond+l+"("Toolls Password : ")
-		if password == CorrectPassword:
-			print("Login Berhasil as Dattebayo")
-			time.sleep(0.03)
-			loop = "false"
-		else:
-			print("Wrong Password")
-			os.system("xdg-open https://www.facebook.com/rendi.gerot.1")
-	else:
-		print("Wrong Username")
-		os.system("xdg-open https://www.facebook.com/rendi.gerot.1")		
-def lisensi():
-	os.system("clear")
-	masuk()
-# Berpikir Sebelum Bertindakk!! 
 
 MAX_IPV4 = ipaddress.IPv4Address._ALL_ONES # IP
 MAX_IPV6 = ipaddress.IPv6Address._ALL_ONES # IP
