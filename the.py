@@ -169,7 +169,7 @@ CorrectUsername = "BintangTzy"
 CorrectPassword = "SanzTzy"
 loop = "true"
 while loop == "true":
-	username = unik = input("\n"+balmond+l+"("Toolls Username : ")
+	username = unik = input("+balmond+l+"("Toolls Username : ")
 	if username == CorrectUsername:
 		password = unik = input("\n"+balmond+l+"("Toolls Password : ")
 		if password == CorrectPassword:
